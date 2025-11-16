@@ -1,5 +1,5 @@
 import telebot # telebot library
-from TranslatorBot.config import token # token import, take it from @BotFather
+from TranslatorBot.config import token # token import
 
 bot = telebot.TeleBot(token) 
 
@@ -38,3 +38,4 @@ def new_member(message):
     bot.approve_chat_join_request(message.chat.id, message.from_user.id)
     
 bot.infinity_polling(none_stop=True)
+
