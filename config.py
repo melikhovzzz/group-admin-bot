@@ -1,1 +1,1 @@
-token = ""
+token = ""  # take it from @BotFather
